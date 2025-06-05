@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-export default class Testimonials extends Component {
+export default class Testimonials extends Component<any> {
   render() {
     let resumeData = this.props.resumeData;
     return (
